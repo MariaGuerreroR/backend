@@ -52,15 +52,14 @@ class Server {
 
     // CORS configurado para HTTPS
     this.app.use(cors({
-      origin: [
-        'https://localhost:5173',
-        'http://localhost:5173',
-        process.env.FRONTEND_URL || 'https://my-personal-blog-gilt-two.vercel.app/'
-      ],
-      credentials: true,
-      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-      allowedHeaders: ['Content-Type', 'Authorization']
-    }));
+  origin: [
+    'https://my-personal-blog-gilt-two.vercel.app',
+    process.env.FRONTEND_URL
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
     // Compresión
     this.app.use(compression());
