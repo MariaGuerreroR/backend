@@ -1,0 +1,28 @@
+{"timestamp":"2025-07-08T04:31:37.518Z","level":"INFO","message":"🔐 Certificados HTTPS no encontrados, creando nuevos..."}
+{"timestamp":"2025-07-08T04:31:37.543Z","level":"WARN","message":"⚠️  Iniciando en modo HTTP (no recomendado para producción)"}
+{"timestamp":"2025-07-08T04:31:37.546Z","level":"INFO","message":"🚀 Servidor HTTP iniciado en puerto 3001"}
+{"timestamp":"2025-07-08T04:31:37.547Z","level":"INFO","message":"📡 API disponible en http://localhost:3001/api"}
+{"timestamp":"2025-07-08T04:32:04.644Z","level":"INFO","message":"🔐 Certificados HTTPS no encontrados, creando nuevos..."}
+{"timestamp":"2025-07-08T04:32:04.672Z","level":"WARN","message":"⚠️  Iniciando en modo HTTP (no recomendado para producción)"}
+{"timestamp":"2025-07-08T04:32:04.676Z","level":"INFO","message":"🚀 Servidor HTTP iniciado en puerto 3000"}
+{"timestamp":"2025-07-08T04:32:04.676Z","level":"INFO","message":"📡 API disponible en http://localhost:3000/api"}
+{"timestamp":"2025-07-08T04:37:03.963Z","level":"INFO","message":"🔐 Certificados HTTPS no encontrados, creando nuevos..."}
+{"timestamp":"2025-07-08T04:37:03.987Z","level":"WARN","message":"⚠️  Iniciando en modo HTTP (no recomendado para producción)"}
+{"timestamp":"2025-07-08T04:37:03.990Z","level":"INFO","message":"🚀 Servidor HTTP iniciado en puerto 3000"}
+{"timestamp":"2025-07-08T04:37:03.990Z","level":"INFO","message":"📡 API disponible en http://localhost:3000/api"}
+{"timestamp":"2025-07-08T04:43:08.900Z","level":"INFO","message":"🔐 Certificados HTTPS no encontrados, creando nuevos..."}
+{"timestamp":"2025-07-08T04:43:08.922Z","level":"WARN","message":"⚠️  Iniciando en modo HTTP (no recomendado para producción)"}
+{"timestamp":"2025-07-08T04:43:08.926Z","level":"INFO","message":"🚀 Servidor HTTP iniciado en puerto 3000"}
+{"timestamp":"2025-07-08T04:43:08.926Z","level":"INFO","message":"📡 API disponible en http://localhost:3000/api"}
+{"timestamp":"2025-07-08T04:46:34.608Z","level":"INFO","message":"🔐 Certificados HTTPS no encontrados, creando nuevos..."}
+{"timestamp":"2025-07-08T04:46:34.629Z","level":"WARN","message":"⚠️  Iniciando en modo HTTP (no recomendado para producción)"}
+{"timestamp":"2025-07-08T04:46:34.632Z","level":"INFO","message":"🚀 Servidor HTTP iniciado en puerto 3000"}
+{"timestamp":"2025-07-08T04:46:34.633Z","level":"INFO","message":"📡 API disponible en http://localhost:3000/api"}
+{"timestamp":"2025-07-08T04:51:40.693Z","level":"INFO","message":"🔐 Certificados HTTPS no encontrados, creando nuevos..."}
+{"timestamp":"2025-07-08T04:51:40.716Z","level":"WARN","message":"⚠️  Iniciando en modo HTTP (no recomendado para producción)"}
+{"timestamp":"2025-07-08T04:51:40.720Z","level":"INFO","message":"🚀 Servidor HTTP iniciado en puerto 3000"}
+{"timestamp":"2025-07-08T04:51:40.720Z","level":"INFO","message":"📡 API disponible en http://localhost:3000/api"}
+{"timestamp":"2025-07-08T04:57:31.766Z","level":"INFO","message":"🔐 Certificados HTTPS no encontrados, creando nuevos..."}
+{"timestamp":"2025-07-08T04:57:31.832Z","level":"WARN","message":"⚠️  Iniciando en modo HTTP (no recomendado para producción)"}
+{"timestamp":"2025-07-08T04:57:31.838Z","level":"INFO","message":"🚀 Servidor HTTP iniciado en puerto 3000"}
+{"timestamp":"2025-07-08T04:57:31.839Z","level":"INFO","message":"📡 API disponible en http://localhost:3000/api"}
