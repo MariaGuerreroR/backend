@@ -24,8 +24,8 @@ const userRoutes = require('./routes/users');
 class Server {
   constructor() {
     this.app = express();
-    this.port = process.env.PORT || 3001;
-    this.httpsPort = process.env.HTTPS_PORT || 3001;
+    this.port = process.env.PORT || 3000;
+    this.httpsPort = process.env.HTTPS_PORT || 3000;
     
     this.initializeMiddlewares();
     this.initializeRoutes();
