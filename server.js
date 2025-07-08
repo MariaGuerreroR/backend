@@ -55,7 +55,7 @@ class Server {
       origin: [
         'https://localhost:5173',
         'http://localhost:5173',
-        process.env.FRONTEND_URL || 'https://localhost:5173'
+        process.env.FRONTEND_URL || 'https://my-personal-blog-gilt-two.vercel.app/'
       ],
       credentials: true,
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
