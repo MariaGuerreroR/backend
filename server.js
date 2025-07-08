@@ -135,7 +135,7 @@ app.use((error, req, res, next) => {
     await database.connect();
     app.listen(port, () => {
       logger.info(`🚀 Servidor iniciado en puerto ${port}`);
-      logger.info(`📡 API disponible en https://<tu-dominio>.onrender.com/api`);
+      logger.info(`📡 API disponible en https://backend-1-op8u.onrender.com`);
     });
   } catch (error) {
     logger.error('❌ Error al iniciar el servidor:', error);
