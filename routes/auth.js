@@ -5,12 +5,12 @@ const { validateRegistration, validateLogin } = require('../middleware/validatio
 
 const router = express.Router();
 
-// Rutas públicas
-router.post('/register', validateRegistration, authController.register);
-router.post('/login', validateLogin, authController.login);
+// ✅ Rutas públicas con función flecha para mantener el contexto
+router.post('/register', validateRegistration, (req, res) => authController.register(req, res));
+router.post('/login', validateLogin, (req, res) => authController.login(req, res));
 
-// Rutas protegidas
-router.get('/profile', authenticateToken, authController.getProfile);
-router.put('/profile', authenticateToken, authController.updateProfile);
+// ✅ Rutas protegidas también corregidas
+router.get('/profile', authenticateToken, (req, res) => authController.getProfile(req, res));
+router.put('/profile', authenticateToken, (req, res) => authController.updateProfile(req, res));
 
 module.exports = router;
